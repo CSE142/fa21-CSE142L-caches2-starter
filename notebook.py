@@ -170,7 +170,7 @@ def fiddle(fname, function=None, compile=True, name=None, code=None, opt=None, r
                     i += 1
                 os.rename(fname, p)
 
-
+            os.makedirs("build", exist_ok=True)
             with open(fname, "w") as  f:
                 f.write(code)
     

@@ -6,8 +6,8 @@ default:
 create-labs:
 	cse142 lab delete -f caches2-bench
 	cse142 lab delete -f caches2
-	cse142 lab create --name "Lab 3: Caches II (Benchmark)" --short-name "caches2-bench" --docker-image stevenjswanson/cse142l-runner:latest --execution-time-limit 0:05:00 --total-time-limit 1:00:00 --due-date 2021-11-23T23:59:59 --starter-repo https://github.com/CSE142/fa21-CSE142L-caches2-starter.git --starter-branch main
-	cse142 lab create --name "Lab 3: Caches II" --short-name "caches2" --docker-image stevenjswanson/cse142l-runner:v47 --execution-time-limit 0:05:00 --total-time-limit 1:00:00 --due-date 2021-11-23T23:59:59
+	cse142 lab create --name "Lab 4: Caches II (Benchmark)" --short-name "caches2-bench" --docker-image stevenjswanson/cse142l-runner:latest --execution-time-limit 0:05:00 --total-time-limit 1:00:00 --due-date 2021-11-23T23:59:59 --starter-repo https://github.com/CSE142/fa21-CSE142L-caches2-starter.git --starter-branch main
+	cse142 lab create --name "Lab 4: Caches II" --short-name "caches2" --docker-image stevenjswanson/cse142l-runner:v47 --execution-time-limit 0:05:00 --total-time-limit 1:00:00 --due-date 2021-11-23T23:59:59
 
 STUDENT_EDITABLE_FILES=matexp_solution.hpp config.make
 PRIVATE_FILES=Lab.key.ipynb admin .git solution bad-solution
