@@ -19,7 +19,7 @@ import glob
 os.environ['CSE142L_LAB'] = 'caches2'
 os.environ['PATH']=f"{os.environ['PATH']}:/usr/local/bin"
 
-pa_columns=["function", "seed", "size", "power","p1", "p2", "p3", "p4", "p5", "IC", "CPI", "CT", "ET", "L1_MPI", "TLB_MPI", "L1_cache_misse", "TLB_misses"]
+pa_columns=["function", "seed", "size", "power","p1", "p2", "p3", "p4", "p5", "IC", "CPI", "CT", "ET", "L1_MPI", "TLB_MPI", "L1_cache_misses", "TLB_misses"]
 default_layers=["misses-compulsory-all", "misses-capacity-all", "hits-all"]
 
 pandas.set_option('display.max_rows', 130)
